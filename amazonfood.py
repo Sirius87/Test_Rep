@@ -2,7 +2,7 @@ from pyspark import SparkContext
 import numpy as np
 from pyspark.mllib.recommendation import ALS
 
-
+#comment added for a git commit test !
 sc=SparkContext(appName="collaborative filtering test")
 txtfile=sc.textFile("outputfood.txt")
 
